@@ -42,7 +42,7 @@ const menuItems = [
     return (
       <div className="min-h-screenx " > 
         <Header />
-        <div className="max-w-6xl mx-auto px-56 py-1 mt-16">
+        <div className="max-w-6xl mx-auto px-50 py-1 mt-16">
           <div className="relative flex justify-center items-center min-h-[600px]">
             {/* Logo in the center */}
             <div className="absolute left-3 z-5">

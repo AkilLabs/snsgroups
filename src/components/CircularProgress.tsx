@@ -12,7 +12,7 @@ interface CircularProgressProps {
   size?: string;
 }
 
-const CircularProgress: React.FC<CircularProgressProps> = ({ segments, size = '400px' }) => {
+const CircularProgress: React.FC<CircularProgressProps> = ({ segments, size = '500px' }) => {
   const navigate = useNavigate();
   const radius = 47;
   const circumference = 6 * Math.PI * radius;
