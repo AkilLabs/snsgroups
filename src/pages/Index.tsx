@@ -9,32 +9,42 @@ const menuItems = [
   {
     icon: Building,
     title: "SNS Venture Capital & Investment",
+    desc:'Funding high-potential startups for strategic ownership stakes',
+    
     color: "#E10485",
-    bgColor: "#FFE5E5"
+    bgColor: "linear-gradient(to right, #f9e7e1, #ff5c22)"
   },
   {
     icon: Laptop,
     title: "SNS Square Technologies",
+    desc:"Driving digital transformation with cutting-edge IT and software solutions. ",
+    link:'https://www.snssquare.com/',
     color: "#EB510B",
-    bgColor: "#F0FFF0"
+    bgColor: "linear-gradient(to right, #d8f3a3, #c5ff1b)"
   },
   {
     icon: MapPin,
     title: "SNS Innovation Hub",
+    desc:"Empowering entrepreneurs with mentorship, resources and a platform for innovation.",
+    link:'https://snsihub.ai/',
     color: "#01A3D4",
-    bgColor: "#FFE6F3"
+    bgColor: "linear-gradient(to right, #f4a4c4, #ff1e5f)"
   },
   {
     icon: School,
     title: "SNS Institutions",
+    desc:'Fostering holistic growth through high-quality education.',
+    link:'https://main.snsgroups.com/',
     color: "#DE2A1B",
-    bgColor: "#FFF0E6"
+    bgColor: "linear-gradient(to right, #ffb390, #ff5714)"
   },
   {
     icon: Dumbbell,
     title: "SNS Spine",
+    desc:'Enabling mental and physical well-being through sports, gaming, entertainment and clubs.',
+    link:'https://snsspine.in/',
     color: "#B0B402",
-    bgColor: "#E6FFFA"
+    bgColor: "linear-gradient(to right, #89eaf2, #13e8ff)"
   }
 ];
 
@@ -59,13 +69,13 @@ const menuItems = [
                   const radius = 215; // Radius of the semi-circle
                   
                   // Calculate x and y positions
-                  const x = Math.cos(radian) * radius;
-                  const y = Math.sin(radian) * radius;
+                  const x = Math.cos(radian) * radius  ;
+                  const y = Math.sin(radian) * radius ;
                   
                   return (
                     <div
                       key={item.title}
-                      className="absolute transform -translate-x-1/2 -translate-y-1/2 animate-fade-in"
+                      className="absolute transform items-center  justify-center translate-x-1/2 -translate-y-1/2 animate-fade-in"
                       style={{
                         left: `${radius + x}px`,
                         top: `${radius + y}px`,
