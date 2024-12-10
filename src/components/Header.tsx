@@ -18,7 +18,7 @@ const Nav: React.FC = () => {
   return (
     <>
       {/* Desktop Navigation */}
-      <nav className="hidden z-10 md:flex h-16 sticky top-0 shadow-md p-4 px-16 rounded-[60px] bg-white bg-opacity-50 mt-4 mx-8">
+      <nav className="hidden z-10 md:flex h-16  shadow-md p-4 px-16 rounded-[60px] bg-white bg-opacity-50 mt-4 mx-8">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo Section */}
           <img src={snsLogo} alt="SNS Logo" className="w-auto h-14 object-contain" />
